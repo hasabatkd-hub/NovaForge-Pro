@@ -1,14 +1,10 @@
 // app/layout.js
-import "./globals.css";
-
-export const metadata = {
-  title: "NovaForge Pro",
-  description: "AI app builder with Next.js",
-};
+export const metadata = { title: "NovaForge Pro" };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
+      <head />
       <body>{children}</body>
     </html>
   );
