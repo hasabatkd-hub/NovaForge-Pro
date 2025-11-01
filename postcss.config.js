@@ -1,7 +1,7 @@
-// ESM syntax for PostCSS (required because package.json has "type": "module")
+// postcss.config.js  (ESM)
 export default {
   plugins: {
     tailwindcss: {},
-    autoprefixer: {}
-  }
+    autoprefixer: {},
+  },
 };
