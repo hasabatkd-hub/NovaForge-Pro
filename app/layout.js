@@ -1,14 +1,15 @@
+// app/layout.js
 import "./globals.css";
 
 export const metadata = {
   title: "NovaForge Pro",
-  description: "AI builder using Next.js + App Router",
+  description: "AI app builder with Next.js",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
-      <body style={{ minHeight: "100vh", margin: 0 }}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
